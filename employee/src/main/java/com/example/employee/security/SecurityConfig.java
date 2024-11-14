@@ -25,7 +25,7 @@ public class SecurityConfig {
                                .build();
         
         UserDetails user2 = User.withUsername("user")
-                                .password("{noop}password")
+                                .password("{noop}user123")
                                 .roles("USER")
                                 .build();
 
